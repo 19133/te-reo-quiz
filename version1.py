@@ -19,7 +19,7 @@ def questions(list):
   "How many days are there in a year?":"365", 
   "How many days are in a century?":"36500", 
  "How many hours are in a day":"24"
- }   
+ }    
  #The questions
  question = list(QnA.keys())
  #input answer here 
@@ -38,7 +38,7 @@ def questions(list):
     question.remove(ques)
 
 
-played_before = yes_no ("Have you played the Te Reo Maori quiz before?" + "\n")
+played_before = yes_no ("Have you played the Te Reo Maori quiz?" + "\n")
 
 if played_before == "yes":
   print("program continues")
